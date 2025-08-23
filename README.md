@@ -31,7 +31,7 @@ La funcionalidad principal permite **ingresar nombres de participantes** y **rea
    ```bash
    git clone https://github.com/usuario/challenge-amigo-secreto.git
    ```
-2. Abre la carpeta en tu editor de código (VS Code recomendado).
+2. Abre la carpeta en tu editor de código.
 3. No requiere instalación de dependencias.
 4. **Ejecuta el proyecto** abriendo el archivo `index.html` en tu navegador.
 
