@@ -1,11 +1,11 @@
-# 🎁 Challenge Amigo Secreto — Versión Sorteo sin Repetición
+# Challenge Amigo Secreto — Versión Sorteo sin Repetición
 
 Este proyecto es una aplicación web interactiva para organizar un **Amigo Secreto** de manera sencilla y sin mostrar públicamente la lista de participantes.  
 La funcionalidad principal permite **ingresar nombres de participantes** y **realizar un sorteo donde cada nombre sale solo una vez**, evitando repeticiones.
 
 ---
 
-## 📌 Características
+# Características
 - Agregar participantes de forma **secreta** (no se muestra la lista en pantalla).
 - Evitar nombres duplicados.
 - Realizar un sorteo aleatorio donde cada participante sale una sola vez.
@@ -15,9 +15,9 @@ La funcionalidad principal permite **ingresar nombres de participantes** y **rea
 
 ---
 
-## 📂 Estructura del proyecto
+# Estructura del proyecto
 ```
-📁 challenge-amigo-secreto
+challenge-amigo-secreto
 │── index.html      # Estructura HTML
 │── style.css       # Estilos visuales
 │── app.js          # Lógica JavaScript
@@ -26,7 +26,7 @@ La funcionalidad principal permite **ingresar nombres de participantes** y **rea
 
 ---
 
-## 🚀 Instalación y ejecución
+# Instalación y ejecución
 1. **Clona este repositorio** o descarga los archivos:
    ```bash
    git clone https://github.com/usuario/challenge-amigo-secreto.git
@@ -37,14 +37,14 @@ La funcionalidad principal permite **ingresar nombres de participantes** y **rea
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+# Tecnologías utilizadas
 - **HTML5** → estructura de la página.
 - **CSS3** → diseño atractivo y responsivo.
 - **JavaScript** → lógica de programación, manejo de arrays, validaciones, persistencia en LocalStorage.
 
 ---
 
-## 📚 Funcionamiento
+# Funcionamiento
 1. El usuario ingresa un nombre en el campo de texto y pulsa **"Agregar"**.  
    - Si el nombre está vacío o ya existe, se muestra un mensaje de error.
    - Si es válido, se guarda en la lista de participantes (`amigos`) y en la lista de **disponibles para sorteo** (`amigosDisponibles`).
@@ -59,14 +59,14 @@ La funcionalidad principal permite **ingresar nombres de participantes** y **rea
 
 ---
 
-## ⚠️ Consideraciones
+# Consideraciones
 - Una vez agregado un nombre, no puede eliminarse ni verse en pantalla, para mantener el carácter **secreto** del juego.
 - El sorteo es completamente aleatorio y no sigue un orden predefinido.
 - Los datos se guardan en **LocalStorage**, por lo que no se perderán al recargar la página, pero sí si se borra el almacenamiento del navegador.
 
 ---
 
-## 🚀 Posibles mejoras
+# Posibles mejoras
 - Mostrar un contador de cuántos nombres quedan por sortear.
 - Botón para **reiniciar el sorteo** sin tener que volver a ingresar todos los nombres.
 - Versión con asignación tipo “cadena” para un juego de Amigo Secreto completo (cada persona tiene un único amigo asignado).
@@ -74,5 +74,5 @@ La funcionalidad principal permite **ingresar nombres de participantes** y **rea
 
 ---
 
-## 👨‍💻 Autor
+# Autor
 Proyecto desarrollado como ejercicio de programación para fortalecer lógica y manipulación de DOM con JavaScript.
