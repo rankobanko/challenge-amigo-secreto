@@ -1,4 +1,4 @@
-# Challenge Amigo Secreto — Versión Sorteo sin Repetición
+# Challenge Amigo Secreto 
 
 Este proyecto es una aplicación web interactiva para organizar un **Amigo Secreto** de manera sencilla y sin mostrar públicamente la lista de participantes.  
 La funcionalidad principal permite **ingresar nombres de participantes** y **realizar un sorteo donde cada nombre sale solo una vez**, evitando repeticiones.
